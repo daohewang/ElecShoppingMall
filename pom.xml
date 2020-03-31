@@ -20,6 +20,14 @@
 
   <dependencies>
 
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok-maven -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok-maven</artifactId>
+      <version>1.12.2.0</version>
+      <type>pom</type>
+    </dependency>
+
     <dependency>
       <groupId>org.apache.tomcat</groupId>
       <artifactId>tomcat-servlet-api</artifactId>

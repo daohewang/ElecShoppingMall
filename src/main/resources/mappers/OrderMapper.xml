@@ -211,8 +211,7 @@
 
   <select id="selectByOrderNo" resultMap="BaseResultMap" parameterType="long">
     SELECT
-    <include refid="Base_Column_List">
-    </include>
+    <include refid="Base_Column_List"></include>
     FROM  mmall_order
     where order_no = #{orderNo}
   </select>
